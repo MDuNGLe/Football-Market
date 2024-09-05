@@ -1,0 +1,241 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*  Header  */
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 135px 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    cursor: default;
+}
+
+.right__menu{
+    align-items: center;
+    letter-spacing: 25px;
+}
+
+.menu__list{
+    display: flex;
+    margin-top: 0px;
+}
+
+.menu__item + .menu__item{
+    margin-left: 53px;
+}
+
+.menu__link{
+    text-transform: capitalize;
+    font-weight: 500px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.popular{
+    margin-top: 75px;
+}
+
+
+.popular__link-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+.popular__price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 45px;
+}
+
+.popular__items{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(2, 350px);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    margin-bottom: 45px;
+}
+
+.btn-size{
+    position: absolute;
+    right: 460px;
+    top: 276px;
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: repeat(2,35px);
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+}
+
+
+.size-btn{
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+    padding: 10px 45px;
+    text-align: center;
+    white-space: pre;
+    cursor: pointer;
+}
+
+.basket-btn{
+    position: absolute;
+    top: 226px;
+    right: 65px;
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    background-color: transparent;
+    width: 150px;
+    height: 35px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.size-btn:hover{
+    background-color: #aaa ;
+}
+
+.size-btn:active{
+    background-color: #aaa ;
+}
+
+.basket-btn:hover{
+    background-color: #aaa;
+
+}
+
+.basket-btn:active{
+    outline: 1px solid #1551e5;
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.product{
+    font-family: 'Montserrat';
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.name{
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.name-description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer{
+    margin-top: auto;
+}
+
+.footer__inner{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-top: -20px;
+}
+
+.logo__footer{
+    padding-bottom: 20px;
+    padding-top: 45px;
+}
+
+.menu_link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.menu-foot + .menu-foot{
+    margin-left: 30px;
+}
+
+
+
